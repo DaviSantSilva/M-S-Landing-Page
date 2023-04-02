@@ -10,8 +10,8 @@ const Sidebar = () => {
   return (
     <>
       <nav class="bg-ms-hard-blue px-2 sm:px-4 py-2.5  fixed w-full z-20 top-0 left-0 border-b border-gray-200 ">
-        <div class="container flex flex-wrap items-center justify-between mx-auto ">
-          <a href="https://flowbite.com/" class="flex items-center">
+        <div class="container flex flex-wrap items-center justify-between mx-auto">
+          <a href="" class="flex items-center">
             <Image src={msLogo} height={70} alt="M&S logo" />
             <span class="self-center text-xl font-semibold whitespace-nowrap p-4 text-white ">
               M&S
@@ -45,8 +45,8 @@ const Sidebar = () => {
           <div
             class={
               toggle
-                ? "items-center justify-between w-full "
-                : "md:flex md:w-auto md:order-1 hidden "
+                ? "md:flex md:w-auto md:order-1 hidden ml-auto"
+                : "items-center justify-between w-full "
             }
             id="navbar-sticky"
           >
